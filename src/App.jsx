@@ -4,9 +4,9 @@ import 'weather-icons/css/weather-icons.css'
 export default function App() {
 
 	return (
-		<div>
+		<div id="weather-app">
 			<h2>Weather App</h2>
-			<div>
+			<div id="coordinates">
 				<span>Latitude</span>
 				<input
 					type="text"
@@ -32,7 +32,7 @@ export default function App() {
 								</h5>
 								<table>
 									<thead>
-										<tr>
+										<tr id="temperature">
 											<th colSpan={2}>Temperature</th>
 										</tr>
 										<tr>
