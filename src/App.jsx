@@ -25,7 +25,7 @@ export default function App() {
 				<div className="col-3">
 					<div className="card my-3">
 						<div className="card-body">
-							<h3 className="card-title text-primary"></h3>
+							<h3 className="card-title"></h3>
 							<div className="card-text">
 								<h5>
 									<i></i>
